@@ -6,7 +6,8 @@
       "model": "Corvette ZR-1(C4)",
       "year": 1989,
       "imageUrl": "img/C4.png",
-      "description": "The Chevrolet Corvette ZR-1 (C4) comes with a 5.7L V8 engine, rear-wheel drive, and 375 horsepower. It's a true American muscle car, designed for performance and speed."
+      "description": "The Chevrolet Corvette ZR-1 (C4) comes with a 5.7L V8 engine, rear-wheel drive, and 375 horsepower. It's a true American muscle car, designed for performance and speed.",
+      "stock": 3
     },
     {
       "id": "2",
@@ -14,7 +15,8 @@
       "model": "Gran Turismo S",
       "year": 2008,
       "imageUrl": "img/GT.png",
-      "description": "The Maserati Gran Turismo S is powered by a 4.7L V8 engine, rear-wheel drive, and delivers an impressive 433 horsepower. A blend of Italian elegance and performance."
+      "description": "The Maserati Gran Turismo S is powered by a 4.7L V8 engine, rear-wheel drive, and delivers an impressive 433 horsepower. A blend of Italian elegance and performance.",
+      "stock": 2
     },
     {
       "id": "3",
@@ -22,7 +24,8 @@
       "model": "Viper SRT10 Coupe",
       "year": 2006,
       "imageUrl": "img/VIPER.png",
-      "description": "The Dodge Viper SRT10 Coupe features an 8.3L V10 engine with rear-wheel drive, producing 510 horsepower. A true muscle car that delivers an intense driving experience."
+      "description": "The Dodge Viper SRT10 Coupe features an 8.3L V10 engine with rear-wheel drive, producing 510 horsepower. A true muscle car that delivers an intense driving experience.",
+      "stock": 1
     },
     {
       "id": "4",
@@ -30,7 +33,8 @@
       "model": "Z8",
       "year": 2001,
       "imageUrl": "img/Z8.png",
-      "description": "The BMW Z8 is powered by a 4.9L V8 engine, rear-wheel drive, and generates 400 horsepower. A striking roadster that combines elegance with exhilarating performance."
+      "description": "The BMW Z8 is powered by a 4.9L V8 engine, rear-wheel drive, and generates 400 horsepower. A striking roadster that combines elegance with exhilarating performance.",
+      "stock": 4
     },
     {
       "id": "5",
@@ -38,7 +42,8 @@
       "model": "R8 4.2",
       "year": 2007,
       "imageUrl": "img/R8.png",
-      "description": "The Audi R8 4.2 is equipped with a 4.2L V8 engine, all-wheel drive, and delivers 420 horsepower. A precision-engineered supercar that offers fantastic grip and power."
+      "description": "The Audi R8 4.2 is equipped with a 4.2L V8 engine, all-wheel drive, and delivers 420 horsepower. A precision-engineered supercar that offers fantastic grip and power.",
+      "stock": 2
     },
     {
       "id": "6",
@@ -46,7 +51,8 @@
       "model": "Corvette ZR-1(C6)",
       "year": 2009,
       "imageUrl": "img/C6.png",
-      "description": "The Chevrolet Corvette ZR-1 (C6) packs a 6.2L V8 engine with rear-wheel drive, generating 638 horsepower. A high-performance sports car with world-class speed."
+      "description": "The Chevrolet Corvette ZR-1 (C6) packs a 6.2L V8 engine with rear-wheel drive, generating 638 horsepower. A high-performance sports car with world-class speed.",
+      "stock": 3
     },
     {
       "id": "7",
@@ -54,7 +60,8 @@
       "model": "Testarossa",
       "year": 1991,
       "imageUrl": "img/TESTAROSSA.png",
-      "description": "The Ferrari Testarossa is powered by a 4.9L V12 engine, rear-wheel drive, and produces 390 horsepower. A symbol of Ferrari's engineering prowess with a unique, timeless design."
+      "description": "The Ferrari Testarossa is powered by a 4.9L V12 engine, rear-wheel drive, and produces 390 horsepower. A symbol of Ferrari's engineering prowess with a unique, timeless design.",
+      "stock": 1
     },
     {
       "id": "8",
@@ -62,7 +69,8 @@
       "model": "Dino 246 GT",
       "year": 1971,
       "imageUrl": "img/Dino.png",
-      "description": "The Ferrari Dino 246 GT comes with a 2.4L V6 engine, rear-wheel drive, and 180 horsepower. A lightweight and agile sports car that showcases Ferrari's expertise in performance."
+      "description": "The Ferrari Dino 246 GT comes with a 2.4L V6 engine, rear-wheel drive, and 180 horsepower. A lightweight and agile sports car that showcases Ferrari's expertise in performance.",
+      "stock": 2
     },
     {
       "id": "9",
@@ -70,7 +78,8 @@
       "model": "Lancer Evolution IV GSR",
       "year": 1996,
       "imageUrl": "img/EVO IV.png",
-      "description": "The Mitsubishi Lancer Evolution IV GSR features a 2.0L turbocharged inline-4 engine, all-wheel drive, and 276 horsepower. A rally-inspired car known for its handling and speed."
+      "description": "The Mitsubishi Lancer Evolution IV GSR features a 2.0L turbocharged inline-4 engine, all-wheel drive, and 276 horsepower. A rally-inspired car known for its handling and speed.",
+      "stock": 4
     },
     {
       "id": "10",
@@ -78,7 +87,8 @@
       "model": "R32 GT-R Vspec II",
       "year": 1994,
       "imageUrl": "img/R32.png",
-      "description": "The Nissan R32 GT-R Vspec II is powered by a 2.6L turbocharged inline-6 engine, all-wheel drive, with 280 horsepower. A legendary JDM performance car with exceptional handling and speed."
+      "description": "The Nissan R32 GT-R Vspec II is powered by a 2.6L turbocharged inline-6 engine, all-wheel drive, with 280 horsepower. A legendary JDM performance car with exceptional handling and speed.",
+      "stock": 3
     },
     {
       "id": "11",
@@ -86,7 +96,8 @@
       "model": "Lancer Evolution VI GSR T.M. SCP",
       "year": 1999,
       "imageUrl": "img/EVO VI.png",
-      "description": "The Mitsubishi Lancer Evolution VI GSR T.M. SCP features a 2.0L turbocharged inline-4 engine, all-wheel drive, and 280 horsepower. A performance car designed for speed and rally dominance."
+      "description": "The Mitsubishi Lancer Evolution VI GSR T.M. SCP features a 2.0L turbocharged inline-4 engine, all-wheel drive, and 280 horsepower. A performance car designed for speed and rally dominance.",
+      "stock": 2
     },
     {
       "id": "12",
@@ -94,7 +105,8 @@
       "model": "SLS AMG",
       "year": 2013,
       "imageUrl": "img/SLS.png",
-      "description": "The Mercedes-Benz SLS AMG is equipped with a 6.2L V8 engine, rear-wheel drive, and 563 horsepower. A luxurious supercar that combines high-end performance with stunning design."
+      "description": "The Mercedes-Benz SLS AMG is equipped with a 6.2L V8 engine, rear-wheel drive, and 563 horsepower. A luxurious supercar that combines high-end performance with stunning design.",
+      "stock": 4
     },
     {
       "id": "13",
@@ -102,7 +114,8 @@
       "model": "Silvia K's(S13)",
       "year": 1990,
       "imageUrl": "img/S13.png",
-      "description": "The Nissan Silvia K's (S13) features a 2.0L turbocharged inline-4 engine, rear-wheel drive, and 205 horsepower. A lightweight and agile car perfect for drifting and performance tuning."
+      "description": "The Nissan Silvia K's (S13) features a 2.0L turbocharged inline-4 engine, rear-wheel drive, and 205 horsepower. A lightweight and agile car perfect for drifting and performance tuning.",
+      "stock": 1
     },
     {
       "id": "14",
@@ -110,7 +123,8 @@
       "model": "Civic Type R(EK) Touring Car",
       "year": 2019,
       "imageUrl": "img/TYPER EK.png",
-      "description": "The Honda Civic Type R (EK) Touring Car comes with a 2.0L turbocharged inline-4 engine, front-wheel drive, and 306 horsepower. A high-performance hatchback known for its handling and track capabilities."
+      "description": "The Honda Civic Type R (EK) Touring Car comes with a 2.0L turbocharged inline-4 engine, front-wheel drive, and 306 horsepower. A high-performance hatchback known for its handling and track capabilities.",
+      "stock": 3
     },
     {
       "id": "15",
@@ -118,7 +132,8 @@
       "model": "911 Carrera RS CS(993)",
       "year": 1995,
       "imageUrl": "img/911.png",
-      "description": "The Porsche 911 Carrera RS CS (993) is powered by a 3.6L flat-six engine, rear-wheel drive, and 270 horsepower. A lightweight version of the iconic 911, designed for driving enthusiasts."
+      "description": "The Porsche 911 Carrera RS CS (993) is powered by a 3.6L flat-six engine, rear-wheel drive, and 270 horsepower. A lightweight version of the iconic 911, designed for driving enthusiasts.",
+      "stock": 2
     },
     {
       "id": "16",
@@ -126,7 +141,8 @@
       "model": "RX-7 GT-X(FC)",
       "year": 1990,
       "imageUrl": "img/RX7.png",
-      "description": "The Mazda RX-7 GT-X (FC) features a 1.3L twin-rotor rotary engine, rear-wheel drive, and 185 horsepower. A unique, rotary-powered sports car with excellent handling and performance."
+      "description": "The Mazda RX-7 GT-X (FC) features a 1.3L twin-rotor rotary engine, rear-wheel drive, and 185 horsepower. A unique, rotary-powered sports car with excellent handling and performance.",
+      "stock": 4
     },
     {
       "id": "17",
@@ -134,7 +150,8 @@
       "model": "Stratos",
       "year": 1973,
       "imageUrl": "img/STRATOS.png",
-      "description": "The Lancia Stratos is powered by a 2.4L V6 engine, rear-wheel drive, and 190 horsepower. A rally legend known for its distinctive design and extraordinary off-road performance."
+      "description": "The Lancia Stratos is powered by a 2.4L V6 engine, rear-wheel drive, and 190 horsepower. A rally legend known for its distinctive design and extraordinary off-road performance.",
+      "stock": 1
     },
     {
       "id": "18",
@@ -142,7 +159,8 @@
       "model": "Civic Si Extra(EF)",
       "year": 1987,
       "imageUrl": "img/TYPER.png",
-      "description": "The Honda Civic Si Extra (EF) comes with a 1.6L inline-4 engine, front-wheel drive, and 108 horsepower. A small, lightweight car that offers great fuel efficiency and fun handling."
+      "description": "The Honda Civic Si Extra (EF) comes with a 1.6L inline-4 engine, front-wheel drive, and 108 horsepower. A small, lightweight car that offers great fuel efficiency and fun handling.",
+      "stock": 3
     },
     {
       "id": "19",
@@ -150,7 +168,8 @@
       "model": "R5 Turbo",
       "year": 1980,
       "imageUrl": "img/R5.png",
-      "description": "The Renault R5 Turbo features a 1.4L turbocharged inline-4 engine, rear-wheel drive, and 160 horsepower. A small and agile car built for performance and rallying."
+      "description": "The Renault R5 Turbo features a 1.4L turbocharged inline-4 engine, rear-wheel drive, and 160 horsepower. A small and agile car built for performance and rallying.",
+      "stock": 2
     },
     {
       "id": "20",
@@ -158,7 +177,8 @@
       "model": "3.0 CSL",
       "year": 1973,
       "imageUrl": "img/CSL.png",
-      "description": "The BMW 3.0 CSL is powered by a 3.0L inline-6 engine, rear-wheel drive, and 206 horsepower. A lightweight, racing-inspired coupe with a legacy in motorsport."
+      "description": "The BMW 3.0 CSL is powered by a 3.0L inline-6 engine, rear-wheel drive, and 206 horsepower. A lightweight, racing-inspired coupe with a legacy in motorsport.",
+      "stock": 4
     }
   ]
 }
