@@ -12,7 +12,7 @@ import Filter from "../components/Filter";
 
 export default function GalleryPage() {
   const [data, setData] = useState(null);
-  const [filteredData,setFilteredData] = useState(null);
+  const [filteredData, setFilteredData] = useState(null);
   const [open, setOpen] = useState(false);
   const [carDetails, setCarDetails] = useState(null);
   const [buyOpen, setBuyOpen] = useState(false);
@@ -29,15 +29,17 @@ export default function GalleryPage() {
         console.error("Error fetching the data:", error);
       });
   }, []);
-  const handleFilter = (decade) =>{
-    if(decade){
-      const[num1,num2]= decade;
-      const filtered = data.filter((car)=>car.year >= num1 && car.year < num2 );
-      setFilteredData(filtered)
-    }else{
+  const handleFilter = (decade) => {
+    if (decade) {
+      const [num1, num2] = decade;
+      const filtered = data.filter(
+        (car) => car.year >= num1 && car.year < num2
+      );
+      setFilteredData(filtered);
+    } else {
       setFilteredData(data);
     }
-  }
+  };
   if (!data) {
     return <>John Cena</>;
   }
@@ -53,8 +55,12 @@ export default function GalleryPage() {
   const handlePurchase = (car) => {
     if (car.stock > 0) {
       const updatedCar = { ...car, stock: car.stock - 1 };
-      setData((prevData) =>
-        prevData.map((item) => (item.id === car.id ? updatedCar : item))
+      const updatedData = data.map((item)=>
+      item.id === car.id ? updatedCar: item);
+      setData(updatedData);
+
+      setFilteredData((prevFilteredData) =>
+        prevFilteredData.map((item) => (item.id === car.id ? updatedCar : item))
       );
       setBuyDialog(
         `Congrats! You have owned the ${car.make} ${car.model} ${car.year}!`
@@ -70,7 +76,7 @@ export default function GalleryPage() {
   return (
     <>
       {/* <h2>Gallery Page</h2> */}
-      <Filter onFilterChange={handleFilter}/>
+      <Filter onFilterChange={handleFilter} />
       <Grid container spacing={3} justifyContent="center">
         {filteredData.map((car) => (
           <Grid item xs={12} sm={6} md={4} lg={3} key={car.id}>

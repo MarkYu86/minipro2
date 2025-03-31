@@ -18,7 +18,7 @@ export default function Filter({onFilterChange}) {
         event.target.select();
     }
   return (
-    <div className='filter'style={{ position: 'relative', marginTop: '10px' }}>
+    <div className='filter'style={{ position: 'relative', marginTop: '80px' }}>
     <Autocomplete
       options={decades}
       getOptionLabel={(option) => option.title}
