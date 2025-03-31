@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useReducer } from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -41,7 +41,7 @@ export default function GalleryPage() {
     }
   };
   if (!data) {
-    return <>John Cena</>;
+    return <h1>Loading..</h1>;
   }
   const handleOpenDialog = (car) => {
     setCarDetails(car);
