@@ -14,7 +14,7 @@ function Navbar() {
     setTitle("GT GALLERY")
   }
   return (
-    <AppBar position="fixed" sx={{ top: 0 }} >
+    <AppBar position="sticky" sx={{ top: 0}} >
       <Toolbar className="navbar">
         <Typography className="title" variant="h6" sx={{ flexGrow: 0 }}
         onMouseEnter={hoverTitle}

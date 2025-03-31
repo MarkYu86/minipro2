@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
 body {
   background-color: rgba(60, 60, 60, 0.548);
@@ -5,6 +6,7 @@ body {
 
 .navbar {
   background-color: black;
+  
 }
 
 .title {
@@ -20,7 +22,6 @@ body {
   transition: 1.5s;
   color: red;
 }
-
 
 .background-video {
   position: absolute;
@@ -71,3 +72,35 @@ body {
 .card{
 transition: 'none'
 }
+.filter .MuiFormLabel-root {
+  color: white; /* Change the label text color to white */
+}
+
+/* Style for the input text (user-typed text) */
+.filter .MuiInputBase-input {
+  color: white; /* Change the input text color to white */
+}
+
+.filter .MuiOutlinedInput-root {
+  background-color: #53535348;
+  border-radius: 4px;
+  margin-bottom: 15px; 
+}
+
+footer {
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+}
+footer p{
+  color:#818181
+}
+footer a{
+  color:white;
+  text-decoration:overline;
+  transition:0.5s ease-in-out;
+}
+footer a:hover{
+  color:red;
+}
+
+

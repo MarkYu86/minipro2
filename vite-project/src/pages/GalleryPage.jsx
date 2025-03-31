@@ -8,9 +8,11 @@ import CardActionArea from "@mui/material/CardActionArea";
 import CardActions from "@mui/material/CardActions";
 import { Dialog, DialogActions, DialogContent, Grid } from "@mui/material";
 import "../App.css";
+import Filter from "../components/Filter";
 
 export default function GalleryPage() {
   const [data, setData] = useState(null);
+  const [filteredData,setFilteredData] = useState(null);
   const [open, setOpen] = useState(false);
   const [carDetails, setCarDetails] = useState(null);
   const [buyOpen, setBuyOpen] = useState(false);
@@ -21,11 +23,21 @@ export default function GalleryPage() {
       .then((response) => response.json())
       .then((data) => {
         setData(data.cars);
+        setFilteredData(data.cars);
       })
       .catch((error) => {
         console.error("Error fetching the data:", error);
       });
   }, []);
+  const handleFilter = (decade) =>{
+    if(decade){
+      const[num1,num2]= decade;
+      const filtered = data.filter((car)=>car.year >= num1 && car.year < num2 );
+      setFilteredData(filtered)
+    }else{
+      setFilteredData(data);
+    }
+  }
   if (!data) {
     return <>John Cena</>;
   }
@@ -57,17 +69,27 @@ export default function GalleryPage() {
   };
   return (
     <>
-      <h2>Gallery Page</h2>
+      {/* <h2>Gallery Page</h2> */}
+      <Filter onFilterChange={handleFilter}/>
       <Grid container spacing={3} justifyContent="center">
-        {data.map((car) => (
+        {filteredData.map((car) => (
           <Grid item xs={12} sm={6} md={4} lg={3} key={car.id}>
-            <Card sx={{ maxWidth: 345 }}>
+            <Card
+              sx={{
+                width: 315,
+                height: "100%",
+              }}
+            >
               <div className="card">
-                <CardActionArea>
+                <CardActionArea
+                  sx={{
+                    pointerEvents: "none",
+                  }}
+                >
                   <CardMedia
                     className="card-img"
                     component="img"
-                    height="220"
+                    height="200"
                     image={car.imageUrl}
                     alt="vehicle img"
                   />
@@ -86,7 +108,7 @@ export default function GalleryPage() {
                       variant="body2"
                       sx={{ color: "text.secondary" }}
                     >
-                      {car.stock > 0 ? (`Stock: ${car.stock}` ): "Out of stock"}
+                      {car.stock > 0 ? `Stock: ${car.stock}` : "Out of stock"}
                     </Typography>
                   </CardContent>
                 </CardActionArea>
@@ -142,6 +164,11 @@ export default function GalleryPage() {
           </DialogActions>
         </div>
       </Dialog>
+
+      <footer>
+        <p> More cars coming soon... </p>
+        <a href="#top">Back to top</a>
+      </footer>
     </>
   );
 }
