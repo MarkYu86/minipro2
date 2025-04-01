@@ -5,7 +5,6 @@ import Navbar from "./components/NavBar";
 import AppRoutes from "./routes/AppRoutes";
 import Theme from "./context/Theme";
 import { ThemeProvider } from "@emotion/react";
-import Filter from "./components/Filter";
 
 function App() {
   return (
